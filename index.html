@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <Style>
+        #panel,
+        #flip {
+            padding: 5px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+        }
+        
+        #panel {
+            padding: 50px;
+            display: none;
+        }
+    </Style>
+</head>
+
+<body>
+    <!--contoh pertama dimulai-->
+    <div class="satu">
+        <h2>this is contoh element 1 manggil element dalam class</h2>
+
+        <p>ini adalah contoh paragraf dalam contoh</p>
+        <p>ini adalah contoh paragraf kedua</p>
+
+        <button>Click me to hide paragraph</button>
+    </div>
+
+    <!--contoh kedua dimulai-->
+    <div class="dua">
+        <h2>This is contoh id no 2 manggil id</h2>
+        <p>contoh dalam no 2</p>
+        <p id="test">contoh id p di cth no 2</p>
+
+        <button>Click me to hide paragraph</button>
+    </div>
+
+    <!--contoh ketiga dimulai-->
+    <div class="tiga">
+        <h2>This is contoh no 3 : focus dan blur effect</h2>
+        <div>Name:<input type="text" name="Fullname"></div>
+        <div>Email:<input type="text" name="Email"></div>
+    </div>
+
+    <!--contoh keempat dimulai-->
+    <div class="empat">
+        <h2>This is contoh no 4 hide and show effect</h2>
+        <p>Jika kamu mengklik tombol hide maka aku</p>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+    </div>
+
+    <!--contoh kelima dimulai-->
+    <div class="lima">
+        <h2>This is contoh no 5 toggle (meringkas hide and show) effect</h2>
+        <button>Toggle yang hide dan show sebuah paragraf</button>
+        <p>toggle itu merupakan fungsi pengganti hide n show</p>
+        <p>jd gak perlu pake hide n show, langsung aja toggle</p>
+    </div>
+
+    <!--contoh keenam dimulai-->
+    <div class="enam">
+        <h2>This is contoh no 6 slide toggle</h2>
+        <div id="flip">Click to slide the panel down or up</div>
+        <div id="panel">Henloo Human</div>
+    </div>
+
+    <!--contoh ketujuh dimulai-->
+    <div class="tujuh">
+        <h2>This is contoh no 7 get</h2>
+        <p>Nama :
+            <input type="text" id="test" value=""></p>
+        <button>Show value</button>
+    </div>
+
+
+    <!--contoh kedelapan dimulai-->
+    <div class="delapan">
+        <h2>This is contoh no 8 set</h2>
+        <p id="cth1">hai ini adalah contoh dari set</p>
+        <p id="cth2">aku adalah contoh dari paragraf ke 2</p>
+        <p>Input lembaran berikut:
+            <input type="text" id="cth3" value="hai teman-teman">
+        </p>
+        <button id="tombol1">Set teks</button>
+        <button id="tombol2">Set Html</button>
+        <button id="tombol3">Set Nilai</button>
+
+    </div>
+</body>
+
+</html>
